@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    padding: 10px;
+}
+
+header img {
+    width: 60px;
+    height: 65px;
+}
+
+.titulo-adv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.nome-adv h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nome-adv p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(80, 80, 80);
+    font-size: 14px;
+}
+
+nav  {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: rgba(43, 43, 43, 0.829);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #0B3F69;
+}
+
+.numero {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(228, 228, 228, 0.363);
+    background-color: rgba(241, 241, 241, 0.486);
+    border-radius: 40px;
+    padding: 1px 12px 1px 12px;
+}
+
+.numero:hover {
+    background-color: rgb(213, 224, 233);
+    transition: 200ms;
+}
+
+.numero img {
+    width: 20px;
+    height: 20px;
+}
+
+.numero p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #0B3F69;
+    font-size: 18px;
+}
+
+
+.section-1 {
+    background-image: url(../src/ChatGPT\ Image\ 30\ de\ jul.\ de\ 2026\,\ 08_46_52.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.excelencia {
+    border: 1px solid transparent;
+    background-color: #a5abaf31;
+    display: flex;
+    width: 1000px;
+    height: 50px;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 40px;
+}
+
+.excelencia img {
+    width: 20px;
+    height: 20px;
+}
+
+.excelencia p {
+    color: rgba(255, 255, 255, 0.904);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.conteudo-1 {
+    margin-top: 20px;
+}
+
+.conteudo-1 h1 {
+    color: white;
+    font-size: 80px;
+    line-height: 1.0;
+}
+
+.conteudo-1 strong {
+    color: #367db8;
+}
