@@ -551,6 +551,10 @@ nav a:hover {
 
 .section-5 {
     background-color: #f7f7f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .titulo-5 {
@@ -580,15 +584,104 @@ nav a:hover {
 }
 
 .avaliacoes {
-    border: 1px solid transparent;
-    background-color: #ffffff;
-    width: 1000px;
-    height: 800px;
+    border: 1px solid #58585824;
+    background-color: #fdfdfd;
+    width: 1150px;
+    height: 725px;
     display: flex;
     flex-direction: column;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+
+.avaliacao-1 {
+    padding: 20px;
+    border: 1px solid #ffffff;
+    background-color: #97979713;
+    width: 95%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.descricao {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 .usuario {
     display: flex;
+    gap: 20px;
     align-items: center;
+    margin-top: 20px;
+}
+
+.nome {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.oqfaz {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.avaliacao-2 {
+    padding: 20px;
+    border: 1px solid #ffffff;
+    background-color: #97979713;
+    width: 95%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+.avaliacao-3 {
+    padding: 20px;
+    border: 1px solid #ffffff;
+    background-color: #97979713;
+    width: 95%;
+    border-radius: 25px;
+    margin: auto;
+}
+
+
+.section-6 {
+    background-color: #f7f7f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-6 .p-titulo-6 {
+    margin-top: 150px;
+    color: #0b3f69;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-6 h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    margin-top: 20px;
+}
+
+.titulo-6 strong {
+    color: #0b3f69;
+    font-weight: 600;
+}
+
+.conteudo-p {
+    color: #585858;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
