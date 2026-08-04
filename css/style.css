@@ -261,12 +261,13 @@ nav a:hover {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin-top: 80px;
+    margin-top: 0px;
 }
 
 .titulo-2 p {
     color: #0B3F69;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
 }
 
 .titulo-2 h1 {
